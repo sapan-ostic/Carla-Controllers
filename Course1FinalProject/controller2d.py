@@ -211,7 +211,7 @@ class Controller2D(object):
 				example, can treat self.vars.v_previous like a "global variable".
 			"""
 			
-			# Parameters for Lateral Pure Pursuit controller
+			# Parameters for Lateral controller
 			k = 0.1         #look forward gain
 			Lfc = 1.0       #look-ahead distance
 			L = 2.9
