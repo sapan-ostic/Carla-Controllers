@@ -1,6 +1,10 @@
 # Carla-Controllers
 Controls Course Project: Implementing PID (Pure Pursuit Control for Lateral Control) and Model Predictive Controller in Carla Simulator. The backbon code interfacing with the Carla was used from the Coursera: Introduction to Self-Driving Cars Course.
 
+<p align="center">
+  <img width="640" height="480" src="https://github.com/sapan-ostic/Carla-Controllers/blob/main/results/mpc_carla.gif">
+</p>
+
 # Installation 
 1. Install Carla: [Download here](https://d18ky98rnyall9.cloudfront.net/IFfK-Ce8Eem3Cw5hhdQCGg_210f0c4027bc11e9ae95c9d2c8ddb796_CARLA-Setup-Guide-_Ubuntu_.pdf?Expires=1607904000&Signature=Luzyz99-6Uzg5x3NvJff3HpUQCsH7iOWKiiVjq1EVRFSZc8UY-SrAP8sbxDg0MxOAIDMob1cZNNQL3FfgwkYkR8WwUHEgdGU-FIua5jGs3EbnxPJgVKeYBEQaArKGKh56pspUiOSWcU1tFG~m6crK5aS0YrOCVH1eALf5OT~2M8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A) 
 
