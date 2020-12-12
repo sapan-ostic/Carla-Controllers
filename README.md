@@ -5,6 +5,15 @@ Controls Course Project: Implementing PID (Stanley Control for Lateral Control) 
   <img width="640" height="480" src="https://github.com/sapan-ostic/Carla-Controllers/blob/main/results/mpc_carla.gif">
 </p>
 
+# Coursera Evaluator scores:
+Model Predictive Controller             |  PID Controller
+:-------------------------:|:-------------------------:
+|100% Waypoints tracked | 87.25% waypoints tracked|
+|![](https://github.com/sapan-ostic/Carla-Controllers/blob/main/results/MPC_with_ref_traj.png)  |  ![](https://github.com/sapan-ostic/Carla-Controllers/blob/main/results/pid_speed_profile.png)|
+|![](https://github.com/sapan-ostic/Carla-Controllers/blob/main/results/PID_with_ref_traj.png)  |  ![](https://github.com/sapan-ostic/Carla-Controllers/blob/main/results/mpc_speed_profile.png)|
+
+
+
 # Installation 
 1. Install Carla: [Download here](https://d18ky98rnyall9.cloudfront.net/IFfK-Ce8Eem3Cw5hhdQCGg_210f0c4027bc11e9ae95c9d2c8ddb796_CARLA-Setup-Guide-_Ubuntu_.pdf?Expires=1607904000&Signature=Luzyz99-6Uzg5x3NvJff3HpUQCsH7iOWKiiVjq1EVRFSZc8UY-SrAP8sbxDg0MxOAIDMob1cZNNQL3FfgwkYkR8WwUHEgdGU-FIua5jGs3EbnxPJgVKeYBEQaArKGKh56pspUiOSWcU1tFG~m6crK5aS0YrOCVH1eALf5OT~2M8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A) 
 
