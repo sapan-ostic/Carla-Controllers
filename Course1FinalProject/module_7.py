@@ -596,7 +596,12 @@ def exec_waypoint_nav_demo(args):
             controller.update_values(current_x, current_y, current_yaw, 
                                      current_speed,
                                      current_timestamp, frame)
-            controller.update_controls()
+    
+            if (args.controller == 'PID'):
+                controller.pid()
+            else:
+                controller.mpc()
+
             cmd_throttle, cmd_steer, cmd_brake = controller.get_commands()
 
             # Skip the first frame (so the controller has proper outputs)
@@ -683,6 +688,11 @@ def main():
     """
     argparser = argparse.ArgumentParser(description=__doc__)
     argparser.add_argument(
+        '-c', '--controller',
+        choices=['MPC', 'PID'],
+        default='MPC',
+        help='Controller type')
+    argparser.add_argument(
         '-v', '--verbose',
         action='store_true',
         dest='debug',
@@ -709,7 +719,7 @@ def main():
         default='Low',
         help='graphics quality level.')
     argparser.add_argument(
-        '-c', '--carla-settings',
+        '-s', '--carla-settings',
         metavar='PATH',
         dest='settings_filepath',
         default=None,
